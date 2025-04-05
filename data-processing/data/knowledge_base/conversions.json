@@ -1,0 +1,62 @@
+{
+  "volume": {
+    "cup": 240,
+    "tablespoon": 15,
+    "tbsp": 15,
+    "teaspoon": 5,
+    "tsp": 5,
+    "fluid ounce": 30,
+    "fl oz": 30,
+    "pint": 473,
+    "quart": 946,
+    "gallon": 3785,
+    "ml": 1,
+    "milliliter": 1,
+    "l": 1000,
+    "liter": 1000
+  },
+  "weight": {
+    "pound": 453.592,
+    "lb": 453.592,
+    "ounce": 28.35,
+    "oz": 28.35,
+    "gram": 1,
+    "g": 1,
+    "kg": 1000,
+    "kilogram": 1000
+  },
+  "volume_units": [
+    "cup",
+    "tablespoon",
+    "tbsp",
+    "teaspoon",
+    "tsp",
+    "fluid ounce",
+    "fl oz",
+    "pint",
+    "quart",
+    "gallon",
+    "ml",
+    "milliliter",
+    "l",
+    "liter"
+  ],
+  "weight_units": [
+    "pound",
+    "lb",
+    "ounce",
+    "oz",
+    "gram",
+    "g",
+    "kg",
+    "kilogram"
+  ],
+  "count_units": [
+    "piece",
+    "slice",
+    "whole",
+    "clove",
+    "pinch",
+    "dash"
+  ]
+}
