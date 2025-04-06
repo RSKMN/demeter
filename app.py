@@ -30,7 +30,7 @@ def get_chat_response(messages, max_tokens=1000):
 # Initialize chat memory
 if "chat_messages" not in st.session_state:
     st.session_state.chat_messages = [
-        {"role": "system", "content": "You are an expert in recipe anlysis that answers queries regarding conversions of informal measures of cups/ spoons.. into metric systems."}
+        {"role": "system", "content": "You are an expert in recipe anlysis that answers queries regarding conversions of informal measures of cups/ spoons.. into metric systems. (Answer the query in short)"}
     ]
 
 st.title("Demeter! The AI Chef!!")
