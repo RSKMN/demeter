@@ -4,9 +4,9 @@ import time
 import os
 
 # Import agents
-from query_understanding_agent import QueryUnderstandingAgent
-from recipe_retrieval_agent import RecipeRetrievalAgent
-from conversion_agent import ConversionAgent
+from agents.query_understanding_agent import QueryUnderstandingAgent
+from agents.recipe_retrieval_agent import RecipeRetrievalAgent
+from agents.conversion_agent import ConversionAgent
 
 class DemeterApp:
     def __init__(self):
