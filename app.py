@@ -1,6 +1,6 @@
 import streamlit as st
-from PIL import Image
-import pytesseract
+# from PIL import Image
+# import pytesseract
 import requests
 # from my_api import api_key
 
