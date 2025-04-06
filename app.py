@@ -29,12 +29,12 @@ def get_chat_response(messages, max_tokens=1000):
 # Initialize chat memory
 if "chat_messages" not in st.session_state:
     st.session_state.chat_messages = [
-        {"role": "system", "content": "You are a helpful assistant that answers general questions and responds concisely and accurately."}
+        {"role": "system", "content": "You are an expert in recipe anlysis that answers queries regarding conversions of informal measures of cups/ spoons.. into metric systems."}
     ]
 
-st.title("🧠 LLaMA 70B Chatbot")
+st.title("Demeter! The AI Chef!!")
 
-st.subheader("💬 Chat Below")
+st.subheader("💬 Ask your query in the bottom!")
 for msg in st.session_state.chat_messages:
     if msg["role"] == "user":
         st.chat_message("user").markdown(msg["content"])
