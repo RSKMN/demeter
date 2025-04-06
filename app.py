@@ -2,9 +2,10 @@ import streamlit as st
 from PIL import Image
 import pytesseract
 import requests
-from my_api import api_key
+# from my_api import api_key
 
 
+api_key = st.secrets["groq_api_key"]
 # Groq API Endpoint
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 
