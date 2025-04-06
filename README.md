@@ -1,6 +1,5 @@
 # Demeter: Your Culinary Assistant
 
-![Demeter Logo](https://i.imgur.com/jF2oLiA.png)
 
 ## 🌿 Live Demo
 
